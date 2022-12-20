@@ -3,6 +3,16 @@
 
     {
         index: 1,
+        name: "Redux - Contact App",
+        image: "/images/contact-app-project-thumb.PNG",
+        glink: "https://github.com/shazaq03/react-redux-contacts-app.git",
+        Llink: "https://shazaq03.github.io/react-redux-contacts-app/",
+        description: "",
+
+
+    },
+    {
+        index: 2,
         name: "React - Recipe App",
         image: "/images/recipe-app-project-thumb.PNG",
         glink: "https://github.com/shazaq03/react-recipe-app.git",
@@ -12,7 +22,7 @@
 
     },
     {
-        index: 2,
+        index: 3,
         name: "React - Calculator",
         image: "/images/calculator-project-thumb.png",
         glink: "https://github.com/shazaq03/calculator",
@@ -22,7 +32,7 @@
 
     },
     {
-        index: 3,
+        index: 4,
         name: "React - Todo list",
         image: "/images/todo-app-project-thumb.PNG",
         glink: "https://github.com/shazaq03/react-todo-list",
@@ -32,7 +42,7 @@
 
     },
     {
-        index: 4,
+        index: 5,
         name: "Js - Classic snake game",
         image: "/images/snake-game-project-thumb.PNG",
         glink: "https://github.com/shazaq03/snake-game",
