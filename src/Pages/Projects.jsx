@@ -12,7 +12,7 @@ function Projects() {
         return(
           <div className='project-card' key={project.index}>
             <div className='image-container'>
-              <img src={project.image} alt={project.name} />
+              <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />
             </div>
             <p className='project-title-text'>{project.name}</p>
             <div className='btn-container'>
