@@ -226,10 +226,11 @@ body{
   margin-top: 5rem;
 }
 
-.call-to-action-container cta-btn{
+.call-to-action-container .cta-btn{
   outline: none;
   background: none;
   border: none;
+  text-decoration: none;
   font-family: monospace;
   color: lightblue;
   padding: 1rem 1.75rem;
@@ -238,8 +239,8 @@ body{
   border-radius: 1rem;
 }
 
-.call-to-action-container cta-btn:hover,
-.call-to-action-container cta-btn:focus{
+.call-to-action-container .cta-btn:hover,
+.call-to-action-container .cta-btn:focus{
   background-color: var(--primary-spl-color);
   color: #333;
 }
