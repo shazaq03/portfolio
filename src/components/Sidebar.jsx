@@ -11,7 +11,7 @@ function Sidebar() {
             <Link to={'/contact'}><HiOutlineMail color='#333' fontSize="100%" /><span>Email</span></Link>
         </li>
         <li>
-            <a href="/" rel="noreferrer"><FiUser color='#333' fontSize="100%" /><span>Resume</span></a>
+            <a href="https://drive.google.com/file/d/1hJPKNcmS26Y339pVF8ihnOveh5KYmmW6/view?usp=share_link" target="_blank" rel="noreferrer"><FiUser color='#333' fontSize="100%" /><span>Resume</span></a>
         </li>
         <li>
             <a href="https://github.com/shazaq03" target="_blank" rel="noreferrer"><FiGithub color='#333' fontSize="100%" /><span>Github</span></a>

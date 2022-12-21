@@ -226,7 +226,7 @@ body{
   margin-top: 5rem;
 }
 
-.call-to-action-container button{
+.call-to-action-container cta-btn{
   outline: none;
   background: none;
   border: none;
@@ -238,8 +238,8 @@ body{
   border-radius: 1rem;
 }
 
-.call-to-action-container button:hover,
-.call-to-action-container button:focus{
+.call-to-action-container cta-btn:hover,
+.call-to-action-container cta-btn:focus{
   background-color: var(--primary-spl-color);
   color: #333;
 }

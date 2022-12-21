@@ -17,8 +17,8 @@ function Greeting() {
             <p className="sub-text">Hit me up, let's create somthing special!</p>
           </div>
           <div className="call-to-action-container">
-            <button onClick={() => routeChange("projects")}>Projects</button>
-            <button onClick={() => routeChange("projects")}>Resume</button>
+            <button className="cta-btn" onClick={() => routeChange("projects")}>Projects</button>
+            <a href="https://drive.google.com/file/d/1hJPKNcmS26Y339pVF8ihnOveh5KYmmW6/view?usp=share_link" target="_blank" rel="noreferrer" className='cta-btn'>Resume</a>
           </div>
     </div>
   )
