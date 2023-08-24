@@ -14,7 +14,7 @@ function Sidebar() {
 			</li>
 			<li>
 				<a
-					href="https://drive.google.com/file/d/1fbdToPPOgxjzAqPToVL5fh6rOZK_hIyd/view?usp=sharing"
+					href="https://drive.google.com/file/d/1NErb5aC9u1-T_i_QyqZy-4nwALe-IjXG/view?usp=sharing"
 					target="_blank"
 					rel="noreferrer"
 				>
