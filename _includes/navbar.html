@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/navbar.css">
+  </head>
+  <nav class="nav-container">
+      <ul>
+        <a href="{{ site.baseurl }}/" class="{% if include.active_page == 'home' %}active{% endif %}"> [ Home ]</a>
+        <a href="{{ site.baseurl }}/projects.html" class="{% if include.active_page == 'projects' %}active{% endif %}"> [ Projects & Writeups ]</a>
+        <a href="{{ site.baseurl }}/blog.html" class="{% if include.active_page == 'blog' %}active{% endif %}">[ Blog ]</a>
+        <div class="socials-container">
+          <a href="https://discordapp.com/users/685487896240979977" target="_blank"> [ Discord  </a> | <a href="https://github.com/shazaq03" target="_blank"> Github ] </a>
+        </div>
+      </ul>
+    </nav>
+    
+</html>

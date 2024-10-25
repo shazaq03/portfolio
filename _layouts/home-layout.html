@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tartarus | {{page.title}}
+        </title>
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/home.css">
+    </head>
+    <body>
+        {% include navbar.html active_page="home"%}
+        <div class="main-container">
+            <div class="image-container">
+                <img src="../assets/images/capybara.jpg" class="banner-img">
+            </div>
+            {{content}}
+        </div>
+    </body>
+</html>
