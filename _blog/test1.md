@@ -28,7 +28,7 @@ Ut maximus tellus ut urna lobortis, ac tincidunt nulla bibendum. Praesent commod
 printf("\n this is a code block");
 return 0;
 ```
-commodo sed. tempus rutrum<sup>superscript</sup> tempus rutrum<sub>subscript</sub> risus et rhoncus. Suspendisse potenti. Nam vestibulum risus tortor, ac porta quam hendrerit ac. Orci varius natoque penatibus et magnis dis parturient montevjnrjvnrfhvbhs [link to header 6](#header-6){: .section-link}, nascetur ridiculus mus. In consequat, felis eu molestie bibendum, justo urna consequat mi, id lacinia sapien lacus et urna.
+commodo sed. tempus rutrum<sup>superscript</sup> tempus rutrum<sub>subscript</sub> risus et rhoncus. Suspendisse potenti.![test image](/assets/images/capybara.jpg) Nam vestibulum risus tortor, ac porta quam hendrerit ac. Orci varius natoque penatibus et magnis dis parturient montevjnrjvnrfhvbhs [link to header 6](#header-6){: .section-link}, nascetur ridiculus mus. In consequat, felis eu molestie bibendum, justo urna consequat mi, id lacinia sapien lacus et urna.
 
 this is a refernce to foot note [^1].
 
