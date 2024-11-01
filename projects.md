@@ -2,11 +2,11 @@
 title: Projects and Write-Ups
 layout: projects-layout
 ---
-This is a test projects page
+This Page contains write-ups on my projects and CTFs that I played.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris felis enim, fermentum sed euismod nec, condimentum at purus. Curabitur ultricies nunc porttitor nunc convallis bibendum. Fusce odio leo, tempus vitae sagittis nec, cursus sit amet neque. Sed lobortis lorem neque, eget tincidunt mi dictum ac. Aliquam erat volutpat. Sed mattis sapien sit amet arcu sodales, ac tempor nunc ultricies. Morbi neque urna, rutrum id arcu ut, bibendum hendrerit libero.
+If by a miracle you find any of it useful and wish to copy/quote it, feel free. Backlinks are appreciated but not required.
 
-Ut maximus tellus ut urna lobortis, ac tincidunt nulla bibendum. Praesent commodo suscipit turpis. Donec semper augue tortor, sed eleifend risus commodo sed. Curabitur tempus rutrum risus et rhoncus. Suspendisse potenti. Nam vestibulum risus tortor, ac porta quam hendrerit ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In consequat, felis eu molestie bibendum, justo urna consequat mi, id lacinia sapien lacus et urna.
+[NOTE: It might take a while for me to move the things from my old site to this one and I hope it will be done soon]
 
 ---
 
