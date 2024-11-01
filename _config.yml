@@ -1,6 +1,6 @@
 title: Shazaq
 description: Abandon all hope ye who enter here
-baseurl: "portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://shazaq.github.io/"
 
 # Build settings
