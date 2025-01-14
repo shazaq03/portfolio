@@ -1,6 +1,6 @@
 ---
 layout: blog-post-layout
-title:  A funny Nightmare
+title:  A funny nightmare
 ---
 # A funny nightmare... well, funny in hindsight
 I just woke up from a rather funny nightmare, i'm typing this draft in hopes of editing this later before pushing it(I won't, lol).
