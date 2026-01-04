@@ -1,6 +1,15 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll build output
+_site/
+
+# Jekyll / Sass caches
+.jekyll-cache/
 .jekyll-metadata
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/bundle/
+
+# OS / editor junk
 .notes
-vendor
+.DS_Store
