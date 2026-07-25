@@ -11,11 +11,47 @@
 ---
 
 
-#### level 0
+#### level 0 --> level 1
 
 * Log in using `ssh -p 2220 bandit0@bandit.labs.overthewire.org`
 * enter the password bandit0 when prompted.
 * once in,  `ls` and then `cat readme` .
-* `flag: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR` .
+* FLAG: `6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR` .
 
 ---
+
+#### level 1 --> level 2
+
+* `ls` to view the file with name as `-` (dashed filename).
+* use full path in cat to view the contents `cat ./-`
+* FLAG: `PK8fYLZg2hnHSz83plBL1iEPKdD3QToB` .
+
+---
+
+#### level 2 --> level 3
+
+* `ls` to find dashed filename with spaces in the name.
+* use full path like before along with escape character (`\`) to escape the spaces.
+* `cat ./--spaces\ in\ the\ filename--`
+* FLAG: `7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME` .
+
+---
+
+#### level 3 --> level 4
+
+* use `ls` to find the `inhere` directory and `cd` into it.
+* once in, use `ls -a` to find the hidden `...Hiding-from-you` file.
+* then simply `cat` to get the flag.
+* FLAG: `xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq` .
+
+---
+
+#### level 4 --> level 5
+
+* 
+
+
+
+
+
+
