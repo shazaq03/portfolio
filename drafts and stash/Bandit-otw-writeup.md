@@ -69,7 +69,18 @@
 
 #### level 6 --> level 7
 
-*
+* task is to find a file anywhere on the server with user,group and size specs.
+* use `find` on the root directory `/` , along with `-user` , `-group` and `-size` flags.
+* you will get a lot of permission denied errors. redirect them by `2>/dev/null` .
+* thus `find / -user bandit7 -group group6 -size 33c 2>/dev/null` .
+* `cat` the resulting file to get the flag.
+* FLAG: `Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3` .
+
+---
+
+#### level 7 --> level 8
+
+* 
 
 
 
