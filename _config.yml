@@ -30,7 +30,7 @@ collections:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
- exclude:
+exclude:
    - "drafts and stash/"
 # - .sass-cache/
  #  - .jekyll-cache/
