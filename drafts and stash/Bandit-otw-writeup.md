@@ -60,6 +60,15 @@
 
 #### level 5 --> level 6
 
+* many directories and each having many files in `inhere` .
+* `find` command has `-type f` for regualr file types and `-size 1033c` for file with 1033 bytes size.
+* thus you get `find -type f -size 1033c`
+* FLAG: `pXa26xhMWaC2SvDotA4r9EgZkulOeSBW` .
+
+---
+
+#### level 6 --> level 7
+
 *
 
 
