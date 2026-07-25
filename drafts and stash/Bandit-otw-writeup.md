@@ -97,7 +97,16 @@
 
 #### level 9 --> level 10
 
-* 
+* this file has some parts as human readable but most as binary.
+* things like `cat` doesnt parse or work correctly.
+* use `strings` and `grep` to get the line with a lot of `=` sign.
+* thus `strings data.txt | grep "==="` .
+* FLAG: `B0s2khmbT9u0geKuOoVGW3JZKhndE3BG` .
 
+---
+
+#### level 10 --> level 11
+
+*
 
 
