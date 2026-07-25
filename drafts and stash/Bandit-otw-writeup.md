@@ -48,9 +48,19 @@
 
 #### level 4 --> level 5
 
-* 
+* many files in `inhere`. Task is to find the human-readable plain text file which has the flag.
+* `file` command has `--mime-type` flag that gives the fiel type of the files passes as input.
+* to pass a bunch of file with similar name at the sam time use wildcard (`*`) like `file --mime-type ./file0*` .
+* this will give file types of all files and to filter only the plain text files use grep like `grep *text*` .
+* pipline the output from file command to grep you get `file --mime-type ./file0* | grep "*text*"` .
+* this will only a handful of files that you can cat one by one to find the flag.
+* FLAG: `6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG` .
 
+---
 
+#### level 5 --> level 6
+
+*
 
 
 
