@@ -80,8 +80,24 @@
 
 #### level 7 --> level 8
 
-* 
+* light work, simple `cat` and `grep` .
+* FLAG: `VR1ljMayciFxbnUokuQmJFw6QC9VKtub` .
 
+---
+
+#### level 8 --> level 9
+
+* task is to find a unique line.
+* `uniq` command helps with its `-u` flag but that flag does not detect repeated line that are not adjacent.
+* so first `sort` the file then pipeline through `uniq -u`.
+* thus you do `sort data.txt | uniq -u` to get the flag.
+* FLAG: `EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl` .
+
+---
+
+#### level 9 --> level 10
+
+* 
 
 
 
