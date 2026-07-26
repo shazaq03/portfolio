@@ -142,4 +142,16 @@
 
 #### level 13 --> level 14
 
-* 
+* this level gives ssh key file instead of the usual flag. it is simply available in home directory.
+* `cat` the ssh file. copy the text in clipboard and logout from the level.
+* now in your regular terminal in local machine outside of bandit's server.
+* now make a local file using `nano` and paste the key contents in it.
+* use `chmod 600 filename` to set the permission such thgat only the owner can read since the bandit command next will expect that.
+* now try to login to the next `bandit14` by passing the key file to `ssh` command.
+* thus `ssh -i path/to/ssh_key_file -p 2220 bandit14@bandit.labs.overthewire.org` to log in to bandit14 .
+
+---
+
+#### level 14 --> level 15
+
+*
