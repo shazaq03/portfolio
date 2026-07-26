@@ -129,7 +129,7 @@
 * the method is to use `xxd data.txt | head` to get the first actual bytes of the dump after the offset, then use that reference it to the `wikipedia list of file signatures` to find which is the top most algorithm then revert the algorithm using the appropriate tool till we arrive at the flag.
 * example something like `00000000: 1f8b 0` in `xxd data.txt`, we take `1f 8b` to search on the wiki page and gives us gzip as the algorithm.
 * when reverting algorithm decompress it to a new file numbered like `peeled1`, `peeled2`, etc.
-* FLAG: ` ` .
+* FLAG: `qQYQiHOBPR8zR61qxYqX45quvihF2uzk` .
 
 ---
 
