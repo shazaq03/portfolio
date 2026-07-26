@@ -154,4 +154,16 @@
 
 #### level 14 --> level 15
 
+* remember that `level 13` webpage said there exists a file in `/etc/bandit_pass/bandit14` that only bandit14 can read.
+* the task is to read that file now that we are in bandit14. and pass the password to `localhost 127.0.0.1` at port `30000` .
+* thus `nc -N 127.0.0.1 30000` then paste the content from the `etc/bandit_pass/bandit14` file to get the flag.
+* also note that there is an `authorized_keys` file in the `.ssh` in home directory. may come in handy later.
+* FLAG: `pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7` .
+
+---
+
+#### level 15 --> level 16
+
+*
+*
 *
