@@ -118,7 +118,7 @@
 * the data is file is in ROT13 cipher.
 * decrypt it by using `tr`(translate)command with the translated alphabet order.
 * thus `cat data.txt | tr A-Za-z N-ZA-Mn-za-m` to get the flag.
-* FLAG: `pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro` .
+* FLAG: `GROozWPO8QyN0mGrjUkID0WCYkZiQxrN` .
 
 ---
 
