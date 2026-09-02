@@ -164,6 +164,11 @@
 
 #### level 15 --> level 16
 
-*
-*
-*
+* simple enough, just use `openssl s_client 127.0.0.1:30001` and when prompt wait paste the flag you used for 14 --> 15. that will give the flag.
+* FLAG: `kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V` .
+
+---
+
+#### level 16 ---> level 17
+
+* 
