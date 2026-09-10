@@ -171,4 +171,12 @@
 
 #### level 16 ---> level 17
 
+* A bit tricky, first scan with `nmap` to find which ports are open also using `-sV` flag gives which of the ports are running `ssl`.
+* on the ports running ssl, use the same `openssl` command but use the `-adv` (advanced) flag with it, like so, `openssl s_client -adv 127.0.0.1:31790` now paste the they flag of 15 --> 16, this will give you an ssh private key, copy and paste it in a local file.
+* In the local machine change the permission to `chmod 600 filename` then use it to log in to bandit 17.
+
+---
+
+#### level 17 ---> level 18
+
 * 
