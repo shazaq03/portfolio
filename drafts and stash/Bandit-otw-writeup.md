@@ -3,7 +3,7 @@
 ### General instruction:
 
 * ssh -p < portnumber> bandit< levelNumber>@bandit.labs.overthewire.org
-* example: ssh -p 2220 bandit1@bandit.labs.overthewire.org
+* example: `ssh -p 2220 bandit1@bandit.labs.overthewire.org`
 * you will be prompted to enter password which is the flag captured from the previous round.
 * the flags here may expire and when they do you have to start from the beginning.
 * personal note: finish the entire bandit on a single weekend sitting.
