@@ -179,4 +179,20 @@
 
 #### level 17 ---> level 18
 
+* Simply diff the files `password.new` and `password.old` the new one contains the flag.
+* FLAG: `OQxXZjELndr90zuhOTDYBEomI0SZITXI` .
+
+---
+
+#### level 18 ---> level 19
+
+* The flag is in the `readme` file in the home directory but if you try to log in with the regular ssh command, it will log in then immediately log you out.
+* The trick is pass the command to `cat readme` along with `ssh` as an argument.
+* like so, `ssh -p 2220 bandit18@bandit.labs.overthewire.org cat readme` , this will give the flag before closing the session.
+* FLAG: `KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI` .
+
+---
+
+#### level 19 ---> level 20
+
 * 
