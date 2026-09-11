@@ -222,4 +222,12 @@
 
 #### level 22 --> level 23
 
+* same as before except when you find the `.sh` file. you should set the two shell variables `myname` and `mytarget` manually. but change `myname` as `bandit23` instead of `whoami` .
+* the you can get the `mytarget` and then use that hash for the filename in `/tmp/filname` . then `cat` the file and that will give the flag.
+* FLAG: `gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw` .
+
+---
+
+#### level 23 ---> level 24
+
 * 
