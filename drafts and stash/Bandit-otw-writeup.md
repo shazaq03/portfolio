@@ -195,4 +195,13 @@
 
 #### level 19 ---> level 20
 
+* The home directory has an executable file. check its permission, it shoud be `rws` for the owner. which means the file executes with the permissions of the file owner rather than the user running the command.
+* Now as for the contents of the file, as the page says simply drey run it, it will show you how to use it, we simply pass a command to it and it executes it as bandit20.
+* Now we know the password is in `/etc/bandit_pass/bandit20` now use the executable to run the `cat` command on the password file as `bandit20` like so `./bandit20-do cat /etc/bandit_pass/bandit20`, this gives the flag.
+* FLAG: `4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA` .
+
+---
+
+#### level 20 ---> level 21
+
 * 
