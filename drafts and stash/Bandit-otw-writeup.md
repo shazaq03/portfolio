@@ -204,4 +204,14 @@
 
 #### level 20 ---> level 21
 
-* 
+* Need two terminal sessions for this, log in two different terminals.
+* run `netcat` listen at on terminal at a port of choice like so, `nc -l 127.0.0.1 51000` .
+* On the other terminal run the executable with the port number `netcat` is listening on, like so `./suconnect 51000` .
+* Now on the netcat paste the current flag and that will cause the `suconnect` to give you the new flag.
+* FLAG: `bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY` .
+
+---
+
+#### level 21 ---> level 22
+
+*
