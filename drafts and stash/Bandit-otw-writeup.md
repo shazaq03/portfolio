@@ -214,4 +214,12 @@
 
 #### level 21 ---> level 22
 
-*
+* simple enough, follow the given directory find the file for `bandit22` .
+* then `cat` the file to see what it is doing. it would running another `.sh` file and look at that `.sh` file and you can see it writes the flag to a `/tmp/` file. `cat` the `/tmp/` and that would give the flag.
+* FLAG: `RYVux2rHEm9tiXHmLFzuR7Vhx6AZQMEz` .
+
+---
+
+#### level 22 --> level 23
+
+* 
