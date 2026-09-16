@@ -238,7 +238,7 @@ cat /etc/bandit_pass/bandit24 > /tmp/flag
 
 ```
 * then you can wait for sometime till the script is deleted in the directory then try `cat /tmp/flag` , that should give you the flag.
-* FLAG: `gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw` .
+* FLAG: `hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv` .
 
 ---
 
