@@ -230,4 +230,18 @@
 
 #### level 23 ---> level 24
 
-* 
+* same as before, find the `.sh` file and read it. you will find that, that file reads and executes any file in a certain directory than deletes it `/var/spool/$myname/foo` set `myname` as `bandit24` and then navigate to `/var/spool/bandit24/foo` there you can place a script and wait for the cronjob to execute it and delete it.
+* the script should be something like
+```
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/flag
+
+```
+* then you can wait for sometime till the script is deleted in the directory then try `cat /tmp/flag` , that should give you the flag.
+* FLAG: `gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw` .
+
+---
+
+#### level 24 ---> level 25
+
+*
