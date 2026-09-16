@@ -235,7 +235,6 @@
 ```
 #!/bin/bash
 cat /etc/bandit_pass/bandit24 > /tmp/flag
-
 ```
 * then you can wait for sometime till the script is deleted in the directory then try `cat /tmp/flag` , that should give you the flag.
 * FLAG: `hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv` .
@@ -243,5 +242,20 @@ cat /etc/bandit_pass/bandit24 > /tmp/flag
 ---
 
 #### level 24 ---> level 25
+
+* Simpler than it sounds, use `nc localhost 30002` to listen and learn the format the listener expects. It would be `hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv ####` (previous flag space a secret 4 digit number).
+* With this knowledge lets write a for loop that goes through every number from `0000 to 9999` and pipes it to one `nc` connection. Like so:
+
+```
+for i in {0000..9999}: do
+  echo "hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv $i"
+done | nc localhost 30002
+```
+* That will bruteforce and give you the flag.
+* FLAG: `SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P` .
+
+---
+
+#### level 25 ---> level 26
 
 *
