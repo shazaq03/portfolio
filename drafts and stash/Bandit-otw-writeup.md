@@ -258,4 +258,12 @@ done | nc localhost 30002
 
 #### level 25 ---> level 26
 
-*
+* this is a setup level for the next one, the ssh key is in the home directory cat it and make a local copy, use that to log in to the next level from local terminal.
+* `ssh -i bandit26key -p 2220 bandit26@bandit.labs.overthewire.org` .
+
+---
+
+#### level 26 ---> level 27
+
+* This wont allow you to log in since the target doesnt run bash, task is to find that and log in.
+* 
