@@ -266,4 +266,17 @@ done | nc localhost 30002
 #### level 26 ---> level 27
 
 * This wont allow you to log in since the target doesnt run bash, task is to find that and log in.
-* 
+* First make the terminal so small as to force the `more` state.
+* In this state hit `v` to enter `vi`.
+* Once inside `vi` use command mode (use `Esc` to enter it, if not there by default).
+* In command mode use, `:sh shell=/usr/bin/bash` .
+* Now run `:sh` . This will log you in bash.
+* Here you will find a file that has the `s` permission and simply trying to executing it will tell you that it can allow you run commands as bandit27.
+* use this to get the password for `bandit27`. Like such `./bandit27-do cat /etc/bandit_pass/bandit27` . This will give you the flag.
+* FLAG: `STJLJBRRphMxKB392CT4iOr5CbzPU9ER` .
+
+---
+
+#### level 27 ---> level 28
+
+*
