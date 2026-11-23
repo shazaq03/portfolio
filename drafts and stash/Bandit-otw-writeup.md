@@ -287,4 +287,12 @@ done | nc localhost 30002
 
 #### level 28 ---> level 29
 
+* Same as before first clone the repo into local machine then `cat README` . This will have the password hidden.
+* In the same repo you can look at the `git log` which will show you a commit with message as fix info leak, you can diff to commit id and get the flag.
+* FLAG: `Em7eGtqaMySwNFjCpwzzHhLhospOcdt0` .
+
+---
+
+#### level 29 ---> level 30
+
 *
