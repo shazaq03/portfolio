@@ -295,4 +295,13 @@ done | nc localhost 30002
 
 #### level 29 ---> level 30
 
+* Similar to last get the repo look at `README`. diff to the last commit gives no password in production.
+* look for other branches like dev, use `git branch -a` .
+* switch to the dev branch(`git checkout branch-name`) and then `cat README` . This will give you the flag.
+* FLAG: `jq9Dfg2rXsfYsWMgFuKlXhphjdH7USgX` .
+
+---
+
+#### level 30 ---> level 31
+
 *
