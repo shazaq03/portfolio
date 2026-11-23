@@ -304,4 +304,12 @@ done | nc localhost 30002
 
 #### level 30 ---> level 31
 
+* This time its in the `git tag`.
+* `git show tag-name` will give you the flag.
+* FLAG: `82NkymblpGBYmIXG6ZQ8YldBYstHpfUf` .
+
+---
+
+#### level 31 ---> level 32
+
 *
