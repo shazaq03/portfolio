@@ -279,4 +279,12 @@ done | nc localhost 30002
 
 #### level 27 ---> level 28
 
+* Rather straightforward compared to last one, simply run the `git clone` on the local machine and get the flag from the `readme` file in it.
+* Only trick is you have to mention the port for this, like such ` git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo` . This will give you the repo with the flag.
+* FLAG: `y8Yd2ssKcpHpud7UvOSOxwamRMzIGIeQ` .
+
+---
+
+#### level 28 ---> level 29
+
 *
