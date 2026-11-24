@@ -312,4 +312,13 @@ done | nc localhost 30002
 
 #### level 31 ---> level 32
 
+* This can be pain if you overcomplicate it , but simple if you can get it first time.
+* make a `key.txt`. force add it using `git add -f key.txt` to override the gitignore and commit.
+* push to remote like such `git push origin master` . this response will contain the flag.
+* FLAG: `pWuj5jBQ6IgV0NXwiH6g1pXRF8S1YvbT` .
+
+---
+
+#### level 32 ---> level 33
+
 *
