@@ -321,4 +321,12 @@ done | nc localhost 30002
 
 #### level 32 ---> level 33
 
+* Log in to this level to get into a special shell, inside that enter `$0` to enter a normal shell.
+* in the normal shell, `ls -la` to find a `s` permission file. run that file to get into special shell of the bandit33, inside that run `$0` to enter normal shell of bandit33, now `cat /etc/bandit_pass/bandit33` to get the flag.
+* FLAG: `u4P2CyPOwPGLe94RdD9Uo2FxFwvnFswM` .
+
+---
+
+#### level 33 ---> level 34
+
 *
